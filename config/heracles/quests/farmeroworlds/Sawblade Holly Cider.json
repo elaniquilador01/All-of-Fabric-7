@@ -2,8 +2,42 @@
   "dependencies": [
     "Titration Barrel Recipes"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "Get Sawblade Holly Cider": {
+      "type": "heracles:item",
+      "item": "spectrum:infused_beverage",
+      "nbt": {
+        "Variant": "sawblade_holly_cider"
+      },
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "Sawblade Holly Cider",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "cream": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "croptopia:vanilla_ice_cream",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
@@ -15,14 +49,31 @@
       "Farmer O' Worlds": {
         "position": [
           -395,
-          -400
+          -580
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:map",
-        "count": 1
+        "id": "spectrum:infused_beverage",
+        "count": 4,
+        "nbt": {
+          "Variant": "sawblade_holly_cider",
+          "Thickness": 1,
+          "AgeDays": 216,
+          "CustomPotionEffects": [
+            {
+              "Ambient": 0,
+              "ShowIcon": 1,
+              "ShowParticles": 1,
+              "Duration": 9600,
+              "Id": 1646178,
+              "Amplifier": 1
+            }
+          ],
+          "AlcPercent": 22,
+          "Color": 15191723
+        }
       },
       "type": "heracles:item"
     },
